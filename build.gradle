@@ -1,12 +1,11 @@
 plugins {
-	id 'org.springframework.boot' version '2.2.2.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
 	id 'java'
 	id 'maven'
 }
 
 group = 'com.github.dima767'
-version = '1.0.0-M3'
+version = '1.0.0-M4'
 sourceCompatibility = '11'
 
 configurations {
@@ -23,8 +22,6 @@ repositories {
 dependencies {	
 	implementation 'org.springframework.shell:spring-shell-starter:2.0.1.RELEASE'
 	implementation 'org.apache.commons:commons-lang3:3.9'
-	compileOnly 'org.projectlombok:lombok'
-	annotationProcessor 'org.projectlombok:lombok'	
 }
 
 test {
