@@ -1,0 +1,31 @@
+plugins {
+	id 'org.springframework.boot' version '2.2.2.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'java'
+}
+
+group = 'dk'
+version = '1.0.0-M1'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	jcenter()
+	maven { url 'https://repo.spring.io/milestone' }
+}
+
+dependencies {	
+	implementation 'org.springframework.shell:spring-shell-starter:2.0.1.RELEASE'
+	implementation 'org.apache.commons:commons-lang3:3.9'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'	
+}
+
+test {
+	useJUnitPlatform()
+}
