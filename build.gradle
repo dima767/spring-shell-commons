@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.github.dima767'
-version = '1.0.0-M5'
+version = '1.0.0-alpha1'
 sourceCompatibility = '11'
 
 configurations {
