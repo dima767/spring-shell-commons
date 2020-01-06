@@ -1,4 +1,4 @@
-package dk.springshell.commons;
+package com.github.dima767.springshell.commons;
 
 import org.jline.terminal.Terminal;
 import org.jline.utils.AttributedStringBuilder;

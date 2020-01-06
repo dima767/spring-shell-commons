@@ -1,4 +1,4 @@
-package dk.springshell.commons;
+package com.github.dima767.springshell.commons;
 
 import org.apache.commons.lang3.tuple.Pair;
 import org.springframework.shell.table.BeanListTableModel;

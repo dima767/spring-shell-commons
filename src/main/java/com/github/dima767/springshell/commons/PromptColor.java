@@ -1,4 +1,4 @@
-package dk.springshell.commons;
+package com.github.dima767.springshell.commons;
 
 public enum PromptColor {
     BLACK(0),
